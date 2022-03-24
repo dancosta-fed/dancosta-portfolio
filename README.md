@@ -1,24 +1,16 @@
 # README
+***DANIEL DE OLIVEIRA COSTA*** *This is the updated version of my portfolio.*
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In here you'll find my latest work and projects. Putting together everything I've learnt with Le Wagon Bootcamp and previous and post studies. Please feel free to get in touch if there's any questions about myself or my code, either here on GitHub or on my Linkedin.
 
-Things you may want to cover:
+Here's my Linkedin profile: https://www.linkedin.com/in/daniel-de-oliveira-costa-590515140/
 
-* Ruby version
+I am a JUNIOR developer who's looking for opportunities. I am familiar with the following:
 
-* System dependencies
+- Ruby
+- Ruby on Rails
+- HTML - CSS/SASS
+- Javavscript
+- React
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Thank you for taking the time to check my work.
