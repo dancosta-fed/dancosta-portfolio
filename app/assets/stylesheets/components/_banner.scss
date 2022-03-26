@@ -10,15 +10,26 @@
 }
 
 .avatar {
+
   position: absolute;
   top: 20px;
   left: 90px;
-  background-color: #F0EFF5;
-  border: 1px solid #F0EFF5;
+  background-color: white;
+  border: 1px solid $grey;
   vertical-align: middle;
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  box-shadow: 5px 5px 15px 5px $light;
+  overflow: hidden;
+  object-fit: fill;
+}
+
+.avatar img{
+  margin: 0px 0px 0px 0px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 // ===> MEDIA QUERIES <=== //
