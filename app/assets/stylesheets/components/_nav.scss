@@ -1,16 +1,21 @@
 @import 'colors';
 
+// === MOBILE FIRST APPROACH === //
+
 .nav {
-  margin: 10px;
   background-color: $nav-color;
   color: $font-color;
-  border-bottom: 1px solid $grey;
-  padding: 15px;
+  // border-bottom: 1px solid $light;
 }
 
 .nav-items {
   display: flex;
   justify-content: space-between;
+}
+
+.name,
+.nav-items{
+  padding: 5px;
 }
 
 .home,
