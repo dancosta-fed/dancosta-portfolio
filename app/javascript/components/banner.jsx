@@ -7,6 +7,10 @@ class Banner extends React.Component {
         <div className="avatar">
           <img className="avatar-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648326874/IMG_0476_copy_cpnkbj.png" alt="Dan's profile photo." />
         </div>
+
+        <div className="hire-btn">
+          <a class="btn btn-main" href="#">Hire Me</a>
+        </div>
       </div>
   );
 };

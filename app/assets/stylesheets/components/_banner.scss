@@ -10,10 +10,9 @@
 }
 
 .avatar {
-
   position: absolute;
-  top: 20px;
-  left: 90px;
+  top: 8px;
+  left: 85px;
   background-color: white;
   border: 1px solid $grey;
   vertical-align: middle;
@@ -32,35 +31,98 @@
   object-fit: cover;
 }
 
+.hire-btn {
+  color: $font-color;
+  padding-top: 150px;
+  padding-left: 228px;
+}
+
+.btn-main {
+  color: $light-purple;
+  background-color: $yellow;
+  border-radius: 7px;
+
+  &:hover {
+    color: $yellow;
+    background-color: $light-purple;
+  }
+}
+
+
+
 // ===> MEDIA QUERIES <=== //
 
 @media only screen and (min-width: 375px) {
  .avatar{
-   left: 116px;
+   left: 110px;
  }
+
+ .hire-btn {
+  padding-left: 278px;
+}
 }
 
 @media only screen and (min-width: 425px) {
   .avatar{
-    left: 140px;
+    left: 135px;
+  }
+
+  .hire-btn {
+    padding-left: 320px;
   }
  }
 
-@media only screen and (min-width: 763px) {
+ @media only screen and (min-width: 500px) {
+  .avatar{
+    left: 160px;
+  }
+
+  .hire-btn {
+    padding-left: 386px;
+    padding-top: 140px;
+  }
+ }
+
+@media only screen and (min-width: 768px) {
   .avatar {
-    left: 305px;
+    left: 295px;
+  }
+
+  .hire-btn {
+    padding-left: 328px;
+    padding-top: 175px;
+  }
+
+  .banner-bg{
+    height: 230px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .avatar {
-    left: 425px;
+    left: 417px;
+  }
+
+  .banner-bg{
+    height: 300px;
+  }
+
+  .hire-btn {
+    padding-left: 454px;
+    padding-top: 210px;
+
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1300px) {
   .avatar {
-    left: 646px;
+    top: 30px;
+    left: 600px;
+  }
+
+  .hire-btn {
+    padding-top: 200px;
+    padding-left: 636px;
   }
 }
 
