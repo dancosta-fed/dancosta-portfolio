@@ -1,0 +1,55 @@
+@import 'colors';
+
+// === MOBILE FIRST APPROACH === //
+.banner-bg {
+  background-image: url(https://res.cloudinary.com/dognkye6x/image/upload/v1648325971/banner.bg_xlwncy.png);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  position: relative;
+}
+
+.avatar {
+  position: absolute;
+  top: 20px;
+  left: 90px;
+  background-color: #F0EFF5;
+  border: 1px solid #F0EFF5;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+// ===> MEDIA QUERIES <=== //
+
+@media only screen and (min-width: 375px) {
+ .avatar{
+   left: 116px;
+ }
+}
+
+@media only screen and (min-width: 425px) {
+  .avatar{
+    left: 140px;
+  }
+ }
+
+@media only screen and (min-width: 763px) {
+  .avatar {
+    left: 305px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .avatar {
+    left: 425px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .avatar {
+    left: 646px;
+  }
+}
+
