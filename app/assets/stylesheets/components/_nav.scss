@@ -1,0 +1,49 @@
+@import 'colors';
+
+.nav {
+  margin: 10px;
+  background-color: $nav-color;
+  color: $font-color;
+  border-bottom: 1px solid $grey;
+  padding: 15px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home,
+.blog,
+.contact {
+  cursor: pointer;
+
+  &:hover {
+    color: $yellow;
+  }
+}
+
+
+
+// ===> MEDIA QUERIES <=== //
+
+@media only screen and (min-width: 320px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 763px) {
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .home,
+  .blog,
+  .contact {
+    margin-right: 25px;
+  }
+}
