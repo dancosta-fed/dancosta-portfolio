@@ -22,6 +22,7 @@
 .blog,
 .contact {
   cursor: pointer;
+  color: $grey;
 
   &:hover {
     color: $yellow;

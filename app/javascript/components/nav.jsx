@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom" 
 
 class Nav extends React.Component {
   render() {
@@ -8,12 +9,9 @@ class Nav extends React.Component {
         <img className="nav-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648345717/assFtos_kxj92c.png" />
         </div>
         <div className="nav-items">
-          <div className="home">
-            <a href="<%= link_to root_path %>">Home</a>
-          </div>
-          
-          <div className="blog">blog</div>
-          <div className="contact">contact</div>
+          <Link className="home" to="/">Home</Link>
+          <Link className="blog" to="/blog">Blog</Link>
+          <Link className="contact" to="/contact">Contact</Link>
         </div>
       </div>
   );
