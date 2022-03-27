@@ -1,10 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from '../components/app';
+import { BrowserRouter, Router, Routes, Route, Link } from "react-router-dom" 
+import App from '../components/app'
 
 document.addEventListener('DOMContentLoaded', () => {
   ReactDOM.render(
-    <App />,
+    <BrowserRouter>
+      <Routes>
+        <Route path = '*' element={<App />} />
+      </Routes>
+    </BrowserRouter>,
     document.body.appendChild(document.createElement('div')),
   )
 })
