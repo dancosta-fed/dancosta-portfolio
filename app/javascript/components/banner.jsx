@@ -1,4 +1,6 @@
 import React from "react";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 class Banner extends React.Component {
   render() {
@@ -10,18 +12,16 @@ class Banner extends React.Component {
 
         <div className="buttons">
           <div className="hire-btn">
-            <a class="btn btn-main" href="#">Hire Me</a>
+            <a className="btn btn-main" href="#">Hire Me</a>
           </div>
 
           <div className="social-icons">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fab fa-instagram"></i>
+            {/* <FontAwesomeIcon icon={brands('Github')} /> */}
           </div>
         </div>
       </div>
   );
-};
+}
 
 }
 
