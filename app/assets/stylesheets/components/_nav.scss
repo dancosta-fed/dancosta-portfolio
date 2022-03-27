@@ -16,12 +16,14 @@
 .name,
 .nav-items{
   padding: 5px;
+  margin: 15px;
 }
 
 .home,
 .blog,
 .contact {
   cursor: pointer;
+  color: $grey;
 
   &:hover {
     color: $yellow;
