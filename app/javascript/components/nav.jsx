@@ -5,7 +5,7 @@ class Nav extends React.Component {
     return(
       <div className="nav">
         <div className="name text-center">
-          Daniel Costa
+        <img className="nav-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648345717/assFtos_kxj92c.png" />
         </div>
         <div className="nav-items">
           <div className="home">home</div>
