@@ -28,7 +28,9 @@
   }
 }
 
-
+.nav-img {
+  height: 85px;
+}
 
 // ===> MEDIA QUERIES <=== //
 
@@ -36,6 +38,7 @@
   .nav {
     display: flex;
     flex-direction: column;
+
   }
 }
 
@@ -44,6 +47,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
   }
 
   .home,
