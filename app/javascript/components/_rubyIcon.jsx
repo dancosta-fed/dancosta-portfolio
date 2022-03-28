@@ -4,7 +4,16 @@ class RubyIcon extends React.Component {
   render() {
     return (
       <>
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAACCklEQVRoge2ZQW4aMRhGnz2eIiUTKZuy6KaRAhfJMVopd6uUG7DOZWirKhtUJS2TUGbcRTptNA1j+7dn2PjbIczPe+jDNgJycnJyciKixhy+ml9+wnIdM+Opbdiaurq+u/v52vM6ZvhQVvPFTQr4b3WN/nVWHFozisAzvP0YM6ODb60dXJdcYEp4SCwwNTwkFDgGPCQSOBY8JBA4JjyAiXnj2/nlbanUFUp6nCi+N3sxPEQIrOaLm0KpqzN9cIt2ZtM07K0Vw4OwQilqs2katral1JpZxIcQLJASvsuJkTc5SGAMeIBqCoGx4IGoGnkJjAnfRVojp8AU8CCv0aDAVPAgr9GggDHmQ/DEF9k0ey/4LpIaDQpcLBeqLMvgodDBhx1QkhoNCig0F8sloRISeJDVyPklVjpMQgrfJbRGXtuor0QsPITXyPsgc0mkgIfnGr0JqFHQVeKQRCr4LpUZSQD6Eio5PMCp8d80RNdppTXvF0tsoXmUDHAkpEbin5Q/vn7h3MK7wvC2MFRaI7/V/x/fGokuIPfrNWZb/308U4qZKjjXBU/WUtuWum1pJMP/5NSUbHY757pggT58P6lkuhrt2uFXBgm44PuJlalMwWaXSCAUvh+JjE+NvARi4fvxlfHZjZwCqeH7ccm4dqNBgYfPa2vqx1H/BHmZ12RaU/KQ9pzMycnJyfmX3yp8aHHeVEuNAAAAAElFTkSuQmCC"/>
+        <svg className ="svg-icon" width="38px" height="15px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.29301 4L8.05751 0.235504L9.73062 4H4.29301Z" fill="#6868DD"/>
+          <path d="M14.293 0L10.6613 3.63175L9.04716 0H14.293Z" fill="#6868DD"/>
+          <path d="M0.235501 8.05751L4.00012 9.73067V4.29289L0.235501 8.05751Z" fill="#6868DD"/>
+          <path d="M3.63174 10.6613L0.000118256 9.04721V14.2929L3.63174 10.6613Z" fill="#6868DD"/>
+          <path d="M5.00012 9.29289L9.29301 5H5.00012V9.29289Z" fill="#6868DD"/>
+          <path d="M15.0001 13.731L11.093 4.61427L15.0001 0.707107V13.731Z" fill="#6868DD"/>
+          <path d="M14.048 14.048L10.3314 5.37585L5.37584 10.3314L14.048 14.048Z" fill="#6868DD"/>
+          <path d="M4.61427 11.093L13.7307 15H0.707225L4.61427 11.093Z" fill="#6868DD"/>
+        </svg>
       </>
     )
   }
