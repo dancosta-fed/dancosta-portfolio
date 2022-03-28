@@ -11,6 +11,7 @@
 
 .aboutme{
   color: $light-purple;
+  margin-bottom: 25px;
 }
 
 .about-info{
@@ -19,8 +20,26 @@
   flex-direction: column;
 }
 
+.card {
+  padding: 24px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 3px 3px 2px 1px;
+  margin-bottom: 50px;
+}
+
+.cv-btn {
+  width: 51%;
+  align-self: center;
+  margin-top: 25px;
+}
+
 .about-avatar {
   margin-right: 35px;
+}
+
+.avatar-chat {
+  align-self: center;
 }
 
 .speech {
@@ -50,13 +69,19 @@
   text-align: justify;
 }
 
+.btn-main a {
+  color: $light-purple;
+
+  &:hover {
+    color: $yellow;
+    background-color: $light-purple;
+  }
+}
+
 // == Media Queries == //
 
 @media only screen and (min-width: 426px) {
 
-  .about-info {
-    flex-direction: row;
-  }
   .pointer {
     height: 20px;
     width: 20px;
@@ -65,21 +90,58 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
-
-  .about-info {
-    flex-direction: row;
+@media  screen and (min-width: 768px) {
+  .cv-btn {
+    width: 25%;
   }
+
+  .avatar-chat {
+    display: flex;
+    align-items: center;
+  }
+
+  .speech {
+    height: 119px;
+    width: 500px;
+  }
+
+  .pointer {
+    left: calc(-3.5vw - 218px);
+    top: -40px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .cv-btn {
+    width: 15%;
+  }
+
   .pointer {
     height: 20px;
     width: 20px;
-    left: calc(-3.5vw - 105px);
-    top: -113px;
+    left: calc(-3.5vw - 208px );
+    top: -34px;
+  }
+
+  .avatar-chat {
+    align-items: start;
+  }
+
+  .main-card-info {
+    display: flex;
+  }
+
+  .card-description {
+    width: 50%;
+  }
+
+  .card-info {
+    width: 50%;
   }
 }
 
 @media only screen and (min-width: 1300px) {
   .pointer {
-    left: calc(-3.5vw - 93px);
+    left: calc(-3.5vw - 195px);
   }
 }
