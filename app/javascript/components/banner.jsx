@@ -1,8 +1,13 @@
 import React from "react";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { useEffect } from "react";
+// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+
+
 
 class Banner extends React.Component {
+
   render() {
     return(
       <div className="banner-bg">
@@ -16,7 +21,9 @@ class Banner extends React.Component {
           </div>
 
           <div className="social-icons">
-            {/* <FontAwesomeIcon icon={brands('Github')} /> */}
+            <FontAwesomeIcon icon={faGithub} className="fa-icon"  />
+            <FontAwesomeIcon icon={faLinkedinIn} className="fa-icon" />
+            <FontAwesomeIcon icon={faInstagram} className="fa-icon" />
           </div>
         </div>
       </div>
