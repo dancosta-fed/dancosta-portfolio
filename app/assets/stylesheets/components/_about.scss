@@ -16,6 +16,7 @@
 .about-info{
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .about-avatar {
@@ -24,8 +25,8 @@
 
 .speech {
   background: $light-purple;
-  height: 150px;
-  width: 400px;
+  height: 170px;
+  width: 288px;
   border-radius: 30px;
   box-shadow: 2px 3px 5px 1px;
   padding: 17px;
@@ -34,17 +35,51 @@
 
 
 .pointer {
-  height: 30px;
-  width: 30px;
+  height: 15px;
+  width: 15px;
   background: $light-purple;
   margin: 0 auto;
   transform: rotate(45deg);
   border-radius: 0 0 12px 0;
   position: relative;
-  left: calc(-3.5vw - 141px);
-  top: -44px;
+  left: calc(-3.5vw - 70px);
+  top: -176px;
 }
 
 .message{
   text-align: justify;
+}
+
+// == Media Queries == //
+
+@media only screen and (min-width: 426px) {
+
+  .about-info {
+    flex-direction: row;
+  }
+  .pointer {
+    height: 20px;
+    width: 20px;
+    left: calc(-3.5vw - 112px);
+    top: -113px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .about-info {
+    flex-direction: row;
+  }
+  .pointer {
+    height: 20px;
+    width: 20px;
+    left: calc(-3.5vw - 105px);
+    top: -113px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .pointer {
+    left: calc(-3.5vw - 93px);
+  }
 }

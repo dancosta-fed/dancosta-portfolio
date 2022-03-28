@@ -5,7 +5,7 @@ class About extends React.Component {
     return(
       <div className="background-about">
         <div className="container mx-auto about">
-          <h2 className="aboutme">About Me</h2>
+          <h2 className="aboutme text-center">About Me</h2>
           <div className="about-info">
             <div className="avatar about-avatar">
               <img className="avatar-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648430328/DSC09595_stxxui.jpg" alt="Dan's profile photo." />
