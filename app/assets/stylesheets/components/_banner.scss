@@ -13,6 +13,20 @@
   margin-top: 124px;
 }
 
+.social-icons {
+  cursor: pointer;
+  font-size: 30px;
+  color: $yellow;
+}
+
+.fa-icon {
+  margin-left: 25px;
+
+  &:hover {
+    color: $light-purple;
+  }
+}
+
 .avatar {
   background-color: white;
   border: 1px solid $grey;

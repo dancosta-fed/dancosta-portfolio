@@ -27,7 +27,7 @@ class About extends React.Component {
                 </div>
               </div>
               
-              <a class="btn btn-main cv-btn" href="app/assets/images/DanielCosta-CV.png" download="DanielCosta-CV">
+              <a className="btn btn-main cv-btn" href="app/assets/images/DanielCosta-CV.png" download="DanielCosta-CV">
                 Download CV
               </a>
             
