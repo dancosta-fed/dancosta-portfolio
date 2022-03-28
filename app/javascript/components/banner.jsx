@@ -5,10 +5,25 @@ import { useEffect } from "react";
 // import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 
-
 class Banner extends React.Component {
 
   render() {
+
+    function github(e) {
+      e.preventDefault();
+      window.open('http://github.com/dancosta-fed');
+    }
+
+    function linkedin(e) {
+      e.preventDefault();
+      window.open('https://www.linkedin.com/in/daniel-de-oliveira-costa-590515140/');
+    }
+
+    function instagram(e) {
+      e.preventDefault();
+      window.open('https://www.instagram.com/_dancosta_/');
+    }
+
     return(
       <div className="banner-bg">
         <div className="avatar">
@@ -21,9 +36,9 @@ class Banner extends React.Component {
           </div>
 
           <div className="social-icons">
-            <FontAwesomeIcon icon={faGithub} className="fa-icon"  />
-            <FontAwesomeIcon icon={faLinkedinIn} className="fa-icon" />
-            <FontAwesomeIcon icon={faInstagram} className="fa-icon" />
+            <FontAwesomeIcon icon={faGithub} className="fa-icon" onClick={github} />
+            <FontAwesomeIcon icon={faLinkedinIn} className="fa-icon" onClick={linkedin} />
+            <FontAwesomeIcon icon={faInstagram} className="fa-icon" onClick={instagram} />
           </div>
         </div>
       </div>
