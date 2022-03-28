@@ -1,0 +1,19 @@
+@import 'colors';
+
+.footer {
+  background: $nav-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0px 50px;
+  color: $font-color;
+}
+
+.footer-copyright{
+  font-weight: lighter;
+}
+
+.footer-copyright p {
+  margin-bottom: 0;
+}
