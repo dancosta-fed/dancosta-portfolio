@@ -28,6 +28,40 @@
   margin-bottom: 50px;
 }
 
+.languages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.languages-icon {
+  font-size: 60px;
+  color: $light-purple;
+  margin-right: 25px;
+}
+
+.svg-icon {
+  margin-right: 25px;
+  width: 75px;
+  height: 92px;
+  fill: $light-purple;
+}
+
+.learning {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.learning-icon {
+  margin-top: 10px;
+  font-size: 60px;
+  color: $light-purple;
+}
+
 .cv-btn {
   width: 51%;
   align-self: center;
@@ -78,6 +112,7 @@
   }
 }
 
+
 // == Media Queries == //
 
 @media only screen and (min-width: 426px) {
@@ -91,6 +126,10 @@
 }
 
 @media  screen and (min-width: 768px) {
+  .languages {
+    flex-direction: row;
+  }
+
   .cv-btn {
     width: 25%;
   }

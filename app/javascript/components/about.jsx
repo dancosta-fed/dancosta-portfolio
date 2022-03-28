@@ -1,8 +1,8 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faReact, faJs, faHtml5, faCss3, faSass } from "@fortawesome/free-brands-svg-icons";
 import RailsIcon from "./_railsIcon";
 import RubyIcon from "./_rubyIcon";
-import ReactIcon from "./_reactIcon";
-import JavascriptIcon from "./_javascriptIcon";
 
 class About extends React.Component {
   render() {
@@ -20,10 +20,19 @@ class About extends React.Component {
                 </div>
 
                 <div className="card-info">
-                  <RailsIcon />
-                  <RubyIcon />
-                  <ReactIcon />
-                  <JavascriptIcon />
+                  <div className="languages container">
+                    <FontAwesomeIcon icon={faJs} className="languages-icon" />
+                    <FontAwesomeIcon icon={faHtml5} className="languages-icon" />
+                    <FontAwesomeIcon icon={faCss3} className="languages-icon" />
+                    <FontAwesomeIcon icon={faSass} className="languages-icon" />
+                    <RailsIcon className="svg-icon languages-icon"/>
+                    <RubyIcon className="svg-icon languages-icon"/>
+                  </div>
+
+                  <div className="learning">
+                  # Learning
+                  <FontAwesomeIcon icon={faReact} className="learning-icon" />
+                  </div>
                 </div>
               </div>
               

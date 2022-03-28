@@ -1,9 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { useEffect } from "react";
-// import { faCoffee } from "@fortawesome/free-solid-svg-icons";
-
 
 class Banner extends React.Component {
 
