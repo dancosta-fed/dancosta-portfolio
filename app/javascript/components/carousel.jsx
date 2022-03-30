@@ -19,7 +19,7 @@ const Carousel = () => {
       const slideSize = slideshow.current.children[0].offsetWidth;
 
       // Moving the slideshow
-      slideshow.current.style.transform = `translatex(-${slideSize}px)`;
+      slideshow.current.style.transform = `translateX(-${slideSize}px)`;
 
       const slideTransition = () => {
         // restarted the slide show position
@@ -29,7 +29,9 @@ const Carousel = () => {
         // Getting first element and sending it to the back
 
         slideshow.current.appendChild(firstElement);
-
+        
+        // getting ride of eventListener so back btn works
+        slideshow.current.removeEventListener('transitionend', slideTransition);
       }
 
       // Eventlistener for when transition is over
@@ -40,7 +42,24 @@ const Carousel = () => {
   }
   
   const prior = () => {
-    console.log("prior")
+    // making sure the slide show has elements
+    if(slideshow.current.children.length > 0){
+      // getting the first element of the slideshow
+      const index = slideshow.current.children.length -1;
+      const lastElement = slideshow.current.children[index];
+      slideshow.current.insertBefore(lastElement, slideshow.current.firstChild);
+
+      slideshow.current.style.transition = 'none';
+
+      const slideSize = slideshow.current.children[0].offsetWidth;
+      slideshow.current.style.transform = `translateX(-${slideSize}px)`;
+
+      setTimeout(() =>{
+        slideshow.current.style.transition = '300ms ease-out all';
+        slideshow.current.style.transform = `translateX(0)`;
+      }, 30)
+
+      }
   }
     return (
         <div className="carousel container mx-auto">
@@ -72,6 +91,22 @@ const Carousel = () => {
                   </div>
                   <div className="post-description-carousel">
                     <p>This is a short discription of my post. 2</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Third Element */}
+              <div className="card card-post-carousel">
+                  <Link className="blog carousel-img" to="/blog">
+                    <img className="carousel-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1645840712/freddy_i1qye8.jpg" alt="place holder" />
+                  </Link>
+
+                <div className="post-info-carousel">
+                  <div className="post-title-carousel">
+                    <h3>Post Title 3</h3>
+                  </div>
+                  <div className="post-description-carousel">
+                    <p>This is a short discription of my post. 3</p>
                   </div>
                 </div>
               </div>
