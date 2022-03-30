@@ -83,7 +83,7 @@ const Carousel = () => {
   }, [])
 
     return (
-        <div className="carousel container mx-auto">
+        <div className="carousel container mx-auto">          
             <div className="slideshow-container" ref={slideshow}>
               {/* First Element */}
               <div className="card card-post-carousel">
