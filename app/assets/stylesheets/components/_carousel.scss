@@ -2,15 +2,20 @@
 // === Post === //
 
 .card-post-carousel {
-  position: relative;
-  width: 345px;
-  height: 360px;
   cursor: pointer;
+  position: relative;
+  width: 275px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
 }
 
 .post-info-carousel {
   position: absolute;
   bottom: 2px;
+  right: 2px;
+  padding: 4px;
 }
 
 .post-title-carousel {
@@ -34,5 +39,14 @@
 
   &:hover {
     color: $yellow;
+  }
+}
+
+// === MEDIA QUERY == //
+
+@media only screen and (min-width: 767px) {
+
+  .card-post-carousel {
+    width: 345px;
   }
 }
