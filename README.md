@@ -14,3 +14,5 @@ I am a JUNIOR developer who's looking for opportunities. I am familiar with the 
 - React
 
 Thank you for taking the time to check my work.
+
+ps.: This page was created with Rails and React.
