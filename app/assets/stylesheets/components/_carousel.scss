@@ -1,0 +1,67 @@
+@import 'colors';
+// === Post === //
+.carousel  {
+  overflow: hidden;
+}
+
+.card-post-carousel {
+  cursor: pointer;
+  position: relative;
+  min-width: 99%;
+  height: 360px;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: 30px;
+  transition: .3s ease;
+  z-index: 10;
+}
+
+.post-info-carousel {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  padding: 4px;
+}
+
+.post-title-carousel {
+  color: $light-purple;
+  text-shadow: 1px 1px 2px $yellow;
+}
+
+.post-description-carousel {
+  color: $font-post;
+  text-shadow: 1px 1px 3px;
+}
+
+.carousel-img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.arrow-icon {
+  cursor: pointer;
+  font-size: 25px;
+  color: $light-purple;
+
+  &:hover {
+    color: $yellow;
+  }
+}
+
+.slideshow-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+// === MEDIA QUERY == //
+
+@media only screen and (min-width: 767px) {
+
+  .card-post-carousel {
+    width: 345px;
+  }
+
+  .post-info-carousel {
+    right: 30px;
+  }
+}

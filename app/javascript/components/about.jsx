@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faJs, faHtml5, faCss3, faSass } from "@fortawesome/free-brands-svg-icons";
 import RailsIcon from "./_railsIcon";
 import RubyIcon from "./_rubyIcon";
+import Carousel from "./carousel";
 
 class About extends React.Component {
   render() {
@@ -21,7 +22,6 @@ class About extends React.Component {
 
                 <div className="card-info">
                   <div className="languages container">
-                    <FontAwesomeIcon icon={faJs} className="languages-icon" />
                     <FontAwesomeIcon icon={faHtml5} className="languages-icon" />
                     <FontAwesomeIcon icon={faCss3} className="languages-icon" />
                     <FontAwesomeIcon icon={faSass} className="languages-icon" />
@@ -30,8 +30,11 @@ class About extends React.Component {
                   </div>
 
                   <div className="learning">
-                  # Learning
-                  <FontAwesomeIcon icon={faReact} className="learning-icon" />
+                  # Improving Skills
+                  <div className="d-flex justify-content-center">
+                    <FontAwesomeIcon icon={faJs} className="learning-icon me-2" />
+                    <FontAwesomeIcon icon={faReact} className="learning-icon" />
+                  </div>
                   </div>
                 </div>
               </div>
@@ -56,7 +59,7 @@ class About extends React.Component {
                   <div className="pointer"></div>
                 </div>
               </div>
-
+            <Carousel />
           </div>
         </div>
       </div>
