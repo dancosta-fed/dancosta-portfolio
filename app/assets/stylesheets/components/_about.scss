@@ -112,29 +112,6 @@
   }
 }
 
-// === Post === //
-
-.card-post-carousel {
-  position: relative;
-  width: 345px;
-  height: 360px;
-  cursor: pointer;
-}
-
-.post-info-carousel {
-  position: absolute;
-  bottom: 2px;
-}
-
-.post-title-carousel {
-  color: $light-purple;
-  text-shadow: 1px 1px 2px $yellow;
-}
-
-.post-description-carousel {
-  color: $font-post;
-  text-shadow: 1px 1px 3px;
-}
 // == Media Queries == //
 
 @media only screen and (min-width: 426px) {

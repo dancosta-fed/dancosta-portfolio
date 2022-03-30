@@ -1,0 +1,38 @@
+@import 'colors';
+// === Post === //
+
+.card-post-carousel {
+  position: relative;
+  width: 345px;
+  height: 360px;
+  cursor: pointer;
+}
+
+.post-info-carousel {
+  position: absolute;
+  bottom: 2px;
+}
+
+.post-title-carousel {
+  color: $light-purple;
+  text-shadow: 1px 1px 2px $yellow;
+}
+
+.post-description-carousel {
+  color: $font-post;
+  text-shadow: 1px 1px 3px;
+}
+
+.carousel-img {
+  width: 100%;
+}
+
+.arrow-icon {
+  cursor: pointer;
+  font-size: 25px;
+  color: $light-purple;
+
+  &:hover {
+    color: $yellow;
+  }
+}

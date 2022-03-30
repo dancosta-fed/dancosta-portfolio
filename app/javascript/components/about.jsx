@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faJs, faHtml5, faCss3, faSass } from "@fortawesome/free-brands-svg-icons";
 import RailsIcon from "./_railsIcon";
 import RubyIcon from "./_rubyIcon";
+import Carousel from "./carousel";
 
 class About extends React.Component {
   render() {
@@ -58,23 +59,7 @@ class About extends React.Component {
                   <div className="pointer"></div>
                 </div>
               </div>
-            <div className="blog-carousel">
-              <h1 className="aboutme text-center">Posts</h1>
-
-              <div className="carousel container mx-auto">
-                <div className="card card-post-carousel">
-                  <img src="https://res.cloudinary.com/dognkye6x/image/upload/v1645840712/freddy_i1qye8.jpg" alt="place holder" />
-                  <div className="post-info-carousel">
-                    <div className="post-title-carousel">
-                      <h3>Post Title</h3>
-                    </div>
-                    <div className="post-description-carousel">
-                      <p>This is a short discription of my post.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <Carousel />
           </div>
         </div>
       </div>
