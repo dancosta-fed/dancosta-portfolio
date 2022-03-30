@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React, {useRef, useEffect} from "react";
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -7,6 +7,7 @@ import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Carousel = () => {
   const slideshow = useRef(null);
+  const slideShowInterval = useRef(null);
   
   const next = () => {
     // making sure the slide show has elements
@@ -61,6 +62,26 @@ const Carousel = () => {
 
       }
   }
+
+  // That will make slideshow automated
+  useEffect(() => {
+    slideShowInterval.current = setInterval(() => {
+      next();
+    }, 5000);
+
+    // stop interval
+    slideshow.current.addEventListener('mouseenter', () => {
+      clearInterval(slideShowInterval.current);
+    })
+
+    // restart interval
+    slideshow.current.addEventListener('mouseleave', () => {
+      slideShowInterval.current = setInterval(() => {
+        next();
+      }, 5000);
+    })
+  }, [])
+
     return (
         <div className="carousel container mx-auto">
             <div className="slideshow-container" ref={slideshow}>
