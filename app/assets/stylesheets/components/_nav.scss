@@ -5,7 +5,12 @@
 .nav {
   background-color: $nav-color;
   color: $font-color;
-  // border-bottom: 1px solid $light;
+}
+
+.nav-opacity {
+  background-color: $nav-color;
+  color: $font-color;
+  opacity: 0.3;
 }
 
 .nav-items {
