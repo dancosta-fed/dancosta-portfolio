@@ -2,17 +2,22 @@ import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom" 
 
 const Nav = () => {
-    
   const navbar = useRef(null);
-
+  // getting the navbar
   useEffect(() => {
     window.addEventListener('scroll', scrolling)
   }, []);
 
+  // what will happen on scroll
    const scrolling = () => {
-     console.log('test')
-     navbar.current.style.opacity = 0.6;
-     navbar.current.style.transition = '3000ms ease-out all';
+     if(window.pageYOffset){
+       // on scroll down it has the opacity changed
+      navbar.current.style.opacity = 0.6;
+      navbar.current.style.transition = '3000ms ease-out all';
+     } else {
+       // opacity gets back to 1 if scrolls back up
+       navbar.current.style.opacity = 1;
+     }
    }
 
     
