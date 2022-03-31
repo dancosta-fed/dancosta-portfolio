@@ -1,17 +1,19 @@
 import React from "react";
 import Nav from '../nav'
 import Footer from '../footer';
+import ContactForm from "../contactForm";
 
-class Contact extends React.Component {
-  render() {
-    return (
-      <div>
-        <Nav />
-        <Footer />
-      </div>
-    )
-  }
+const Contact = () => {
+
+  return (
+    <div>
+      <Nav />
+      <ContactForm />
+      <Footer />
+    </div>
+  )
 }
+
 
 
 export default Contact

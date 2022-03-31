@@ -1,0 +1,82 @@
+@import 'colors';
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 230px;
+  width: 80%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 125px;
+  background-color: $light-purple;
+  color: white;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.info-form {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 1em;
+}
+
+.label-form{
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.contact-form input {
+  width: 100%;
+  border: none;
+  background-color: $grey;
+  border-radius: 10px;
+  height: 40px;
+  margin-bottom: 1em;
+}
+
+.textarea input {
+  height: 115px;
+}
+
+.name-form{
+  margin-right: 30px;
+}
+
+.sendBtn input {
+  align-self: center;
+  color: $light-purple;
+  background-color: $yellow;
+  border-radius: 7px;
+
+  &:hover {
+    color: $yellow;
+    background-color: $nav-color;
+  }
+}
+
+
+// == Media Queries == //
+
+@media only screen and (min-width: 767px) {
+  .contact-form {
+    margin-top: 159px;
+    width: 60%;
+  }
+  .form {
+    width: 90%;
+  }
+
+  .sendBtn input {
+    align-self: center;
+    width: 40%;
+  }
+
+  .info-form {
+    flex-direction: row;
+  }
+}
