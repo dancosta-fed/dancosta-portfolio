@@ -30,9 +30,9 @@ const ContactForm = () => {
           <input {...register("text", { required: true, minLength: 20 })} />
         </div>
 
-        <div className="sendBtn">
-          <input className="btn" type="submit" value="send" />
-        </div>
+        
+          <input className="btn sendBtn" type="submit" value="send" />
+       
       </form>
       <div className="push"></div>
     </div>
