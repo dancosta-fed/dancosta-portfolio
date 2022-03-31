@@ -13,7 +13,7 @@ class Banner extends React.Component {
 
     function linkedin(e) {
       e.preventDefault();
-      window.open('https://www.linkedin.com/in/daniel-de-oliveira-costa-590515140/');
+      window.open('https://www.linkedin.com/in/daniel-costa-dev/');
     }
 
     function instagram(e) {
