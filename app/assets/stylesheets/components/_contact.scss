@@ -1,10 +1,12 @@
 @import 'colors';
 
 .contact-form {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 230px;
   width: 80%;
+}
+
+.contact-call-to-action {
+  margin-top: 205px;
+  color: $light-purple;
 }
 
 .form{
@@ -37,25 +39,42 @@
   border-radius: 10px;
   height: 40px;
   margin-bottom: 1em;
+  padding: 10px;
 }
 
-.textarea input {
+.textarea textarea {
   height: 115px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  background-color: $grey;
+  border-radius: 10px;
+  margin-bottom: 1em;
 }
 
 .name-form{
   margin-right: 30px;
 }
 
-.sendBtn input {
+.sendBtn {
   align-self: center;
   color: $light-purple;
   background-color: $yellow;
   border-radius: 7px;
+  border: 1px solid $grey;
 
   &:hover {
     color: $yellow;
-    background-color: $nav-color;
+    background-color: $light-purple;
+    border: 1px solid $grey;
+  }
+}
+
+.contact-call-to-action a {
+  color: $yellow;
+
+  &:hover{
+    color: $light-purple;
   }
 }
 
@@ -63,15 +82,23 @@
 // == Media Queries == //
 
 @media only screen and (min-width: 767px) {
+  .contact-container {
+    display: flex;
+  }
   .contact-form {
     margin-top: 159px;
     width: 60%;
   }
+
+  .contact-call-to-action {
+    margin-top: 159px;
+  }
+
   .form {
     width: 90%;
   }
 
-  .sendBtn input {
+  .sendBtn {
     align-self: center;
     width: 40%;
   }
