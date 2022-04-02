@@ -23,7 +23,7 @@ const Nav = () => {
     
  
     return(
-      <div className="nav fixed-top" ref={navbar}>
+      <div className="nav" ref={navbar}>
         <div className="name text-center">
         <img className="nav-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648345717/assFtos_kxj92c.png" />
         </div>

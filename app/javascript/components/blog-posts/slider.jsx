@@ -37,6 +37,7 @@ class Slider extends React.Component {
   render() {
     return (
       <div className="blog__slider">
+        <h4 className="text-center">A LITTLE ABOUT ME</h4>
         {this.state.itemRows.map((row, i) => (
           <Row key={i}>
             {row.map((item, j) => (

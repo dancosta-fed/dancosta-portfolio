@@ -32,11 +32,12 @@
 
 
 .blog__slider {
-  margin-top: 200px;
+  margin-top: 40px;
 }
 
-.card-post {
-  max-height: 440px;
+.card-body {
+  padding: 0;
+  margin-top: 20px;
 }
 
 
