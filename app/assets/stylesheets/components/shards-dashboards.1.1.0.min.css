@@ -29,7 +29,7 @@
   --font-family-monospace: 'Roboto Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 
-// extra //
+
 
 .blog__slider {
   margin-top: 200px;
@@ -39,7 +39,7 @@
   max-height: 440px;
 }
 
-// === //
+
 
 body {
   font-size: 1rem;
