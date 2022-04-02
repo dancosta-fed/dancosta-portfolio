@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import { Col, Row } from 'shards-react';
 import MediumCard from './MediumCard';
 
