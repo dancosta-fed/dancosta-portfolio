@@ -4,13 +4,22 @@ import ShortenText from './ShortenText';
 import ToText from './Totext'
 import { faUser, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
 // functional card component to display single item
 export default function MediumCard(props) {
-  var shortMonthName = new Intl.DateTimeFormat('en-US', {
-    month: 'short'
-  }).format;
-  let date = new Date(props.pubDate);
-  const publishDate = shortMonthName(date) + ' ' + date.getDate() + ',' + ' ' + date.getFullYear();
+
+  // I've commented this code out, because it returns the publishing date.
+  // However, that is breaking on safari.
+
+  // const shortMonthName = (date) => new Intl.DateTimeFormat('en-US', {
+  //   month: 'short'
+  // }).format(date);
+
+  // const date = new Date(props.pubDate);
+  // console.log(props.pubDate)
+ 
+  // const publishDate = `${shortMonthName(date)} ${date.getDate()} ${date.getFullYear()}`;
   return (
     <Card small className="card-post card-post--1">
       <div className="card-post__image" style={{ backgroundImage: `url(${props.thumbnail})` }}>
@@ -41,9 +50,9 @@ export default function MediumCard(props) {
         </span>
         <br />
 
-        <span className="text-muted">
+        {/* <span className="text-muted">
           <FontAwesomeIcon icon={faCalendarAlt} /> {publishDate}
-        </span>
+        </span> */}
       </CardBody>
     </Card>
   );
