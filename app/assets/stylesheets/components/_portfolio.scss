@@ -1,0 +1,55 @@
+@import 'colors';
+// === PORTFOLIO === //
+.portfolio-wrapper {
+  margin-top: 50px;
+}
+
+.slide-img {
+  display: flex;
+  justify-content: center;
+}
+
+.carouselImg {
+  width: 35%;
+  margin: 10px;
+  box-shadow: 3px 2px 5px;
+  align-self: center;
+  width: 80%;
+}
+
+.card{
+  transition: all .1s ease-in-out;
+}
+.card:hover{
+  box-shadow: 5px 10px 18px rgb(85, 85, 85);
+  transform: scale(1.05);
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn:hover{
+  background-color: $grey;
+  color: $light-purple;
+  cursor: pointer;
+  
+}
+
+// == Media Query == //
+
+@media (min-width: 767px) { 
+
+  .portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .slide-img {
+    margin: 15px;
+    width: 43%;
+  }
+
+}
