@@ -1,12 +1,12 @@
 @import 'colors';
 
 .btn-main {
-  color: $light-purple;
-  background-color: $yellow;
+  color: $light-purple !important;
+  background-color: $yellow !important;
   border-radius: 7px;
 
   &:hover {
-    color: $yellow;
-    background-color: $light-purple;
+    color: $yellow !important;
+    background-color: $light-purple !important;
   }
 }

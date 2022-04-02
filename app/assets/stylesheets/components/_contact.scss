@@ -20,6 +20,10 @@
   border-radius: 7px;
 }
 
+.form h1 {
+  color: white !important;
+}
+
 .info-form {
   display: flex;
   flex-direction: column;
@@ -71,11 +75,15 @@
 }
 
 .contact-call-to-action a {
-  color: $yellow;
+  color: $yellow !important;
 
   &:hover{
-    color: $light-purple;
+    color: $light-purple !important;
   }
+}
+
+.contact-call-to-action h1, h3 {
+  color: $light-purple !important;
 }
 
 
@@ -91,7 +99,7 @@
   }
 
   .contact-call-to-action {
-    margin-top: 159px;
+    margin-top: 283px;
   }
 
   .form {
