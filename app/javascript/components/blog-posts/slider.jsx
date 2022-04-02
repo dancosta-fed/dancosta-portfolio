@@ -32,7 +32,6 @@ class Slider extends React.Component {
           itemRows[row].push(item);
         });
         this.setState({ itemRows: itemRows });
-        console.log(itemRows);
       });
   }
   render() {

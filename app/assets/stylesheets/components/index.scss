@@ -16,6 +16,6 @@
 }
 
 a {
-  text-decoration: none;
-  color: $light-purple;
+  text-decoration: none !important;
+  color: $light-purple !important;
 }
