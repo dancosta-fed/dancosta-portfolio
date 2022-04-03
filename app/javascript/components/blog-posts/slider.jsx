@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import { Col, Row } from 'shards-react';
 import MediumCard from './MediumCard';
 
@@ -10,7 +10,7 @@ class Slider extends React.Component {
     super(props);
     this.state = { itemRows: [], avatar: '', profileLink: '' };
   }
-  mediumURL = 'https://api.rss2json.com/v1/api.json?rss_url=https://dancosta-dev.medium.com/feed/';
+  mediumURL = 'https://api.rss2json.com/v1/api.json?rss_url=https://dancosta-dev.medium.com/feed';
   
   componentDidMount() {
     fetch(this.mediumURL)
