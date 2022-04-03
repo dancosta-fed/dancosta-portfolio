@@ -6,6 +6,7 @@ const BlogPage = () => {
   return (
     <div className="container">
       <Slider />
+      <div className="push"></div>
     </div>
   )
 }

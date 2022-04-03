@@ -61,6 +61,7 @@ class About extends React.Component {
                 </div>
               </div>
             <Portfolio />
+            <div className="push"></div>
           </div>
         </div>
       </div>
