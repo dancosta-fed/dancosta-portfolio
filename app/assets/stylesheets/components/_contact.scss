@@ -25,9 +25,10 @@
 }
 
 .info-form {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
+  display: contents;
+  // display: flex;
+  // flex-direction: column;
+  // align-self: center;
   margin-bottom: 1em;
 }
 
@@ -56,23 +57,20 @@
   margin-bottom: 1em;
 }
 
-.name-form{
-  margin-right: 30px;
-}
 
 .sendBtn {
   align-self: center;
   color: $light-purple;
-  background-color: $yellow;
+  background-color: $yellow !important;
   border-radius: 7px;
-  border: 1px solid $grey;
+  width: 50%;
 
   &:hover {
     color: $yellow;
-    background-color: $light-purple;
-    border: 1px solid $grey;
+    background-color: $nav-color !important;
   }
 }
+
 
 .contact-call-to-action a {
   color: $yellow !important;
@@ -86,12 +84,17 @@
   color: $light-purple !important;
 }
 
+.input-area {
+  display: flex;
+  flex-direction: column;
+}
 
 // == Media Queries == //
 
 @media only screen and (min-width: 767px) {
   .contact-container {
     display: flex;
+    align-items: center;
   }
   .contact-form {
     width: 60%;
@@ -102,7 +105,6 @@
   }
 
   .form {
-    width: 90%;
     margin-top: 60px;
     margin-bottom: 101px;
   }
@@ -112,7 +114,21 @@
     width: 40%;
   }
 
+  .btn-area{
+    width: 50%;
+    display: flex;
+    align-self: center;
+  }
+
   .info-form {
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .form {
+    width: 65%;
+    margin-right: auto;
+    margin-left: 125px;
   }
 }
