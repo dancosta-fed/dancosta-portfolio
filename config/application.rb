@@ -15,8 +15,8 @@ module DancostaPortfolio
     congi.action_mailer.smtp_settings = {
       address: 'smtp.gmail.com',
       port: 587,
-      user_name: Rails.application.secrets.email_user_name,
-      password: Rails.application.secrets.email_user_name,
+      email_user_name: ENV['GMAIL_ADDRESS'],
+      password: ENV['GMAIL_APP_PASSWORD'],
       enable_starttls_auto: true
     }
 

@@ -1,5 +1,7 @@
 class ContactMailer < ActionMailer
-  default from: 'dancosta.id@gmail.com'
+  # Not using this for now!
+
+  # default from: 'dancosta.id@gmail.com'
 
   def message(user)
     @user = user
