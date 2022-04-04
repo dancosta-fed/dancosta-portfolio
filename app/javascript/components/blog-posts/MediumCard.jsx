@@ -16,10 +16,13 @@ export default function MediumCard(props) {
   //   month: 'short'
   // }).format(date);
 
+  // let shortMonth = date.toLocaleString('en-us', { month: 'short' });
   // const date = new Date(props.pubDate);
-  // console.log(props.pubDate)
+
+  // console.log(shortMonth)
+
  
-  // const publishDate = `${shortMonthName(date)} ${date.getDate()} ${date.getFullYear()}`;
+  // const publishDate = `${shortMonth(date)} ${date.getDate()} ${date.getFullYear()}`;
   return (
     <Card small className="card-post card-post--1">
       <div className="card-post__image" style={{ backgroundImage: `url(${props.thumbnail})` }}>
