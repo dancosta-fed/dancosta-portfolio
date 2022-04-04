@@ -34,32 +34,50 @@ const ContactForm = () => {
   
         <div className=" contact-form mx-auto">
           <form action="submit" ref={form} className="form" onSubmit={sendEmail}>
+
             <h1 className="text-center mb-3">Contact Form</h1>
             <div className="input-area">
 
               <div className="info-form">
                 <div className="name-form">
     
-                <input placeholder="What's your name?" name="name" {...register("name", { required: true, maxLength: 20 })} />
-                {errors.name?.type === 'required' && "Name is required"}
+                <input 
+                  placeholder="What's your name?" 
+                  name="name" 
+                  required
+                />
+
                 </div>
     
                 <div className="email-form">
-                  <input placeholder="your@email.com" name="email" {...register("email", { pattern: /.+@.+\.[A-Za-z]+$/})} />
-                  {errors.email?.type === 'required' && "Use a valid email"}
+                  <input 
+                    placeholder="your@email.com" 
+                    name="email"  
+                    required
+                  />
                 </div>
               </div>
     
               <div className="subject">
-                <input placeholder="Subject" name="subject" {...register("subject", { required: true, maxLength: 20 })} />
-                {errors.subjecy?.type === 'required' && "Max 20 caracters"}
+                <input 
+                  placeholder="Subject" 
+                  name="subject" 
+                  required
+                />
               </div>
+
               <div className="textarea">
-                <textarea placeholder="Let's chat..." name="message" {...register("message", { required: true, minLength: 20 })} />
-                {errors.text?.type === 'required' && "Min of 20 caracters"}
+                <textarea 
+                  placeholder="Let's chat..." 
+                  name="message" 
+                  required
+                />
               </div>
               <div className="btn-area">
-                <input className="sendBtn" type="submit" value="send" />
+                <input 
+                  className="sendBtn" 
+                  type="submit" 
+                  value="send" />
               </div>
             </div>
           

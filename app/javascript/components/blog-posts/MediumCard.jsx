@@ -9,18 +9,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // functional card component to display single item
 export default function MediumCard(props) {
 
-
-  // const shortMonthName = (date) => new Intl.DateTimeFormat('en-US', {
-  //   month: 'short'
-  // }).format(date);
-
-  // let shortMonth = date.toLocaleString('en-us', { month: 'short' });
-  // const date = new Date(props.pubDate);
-
-  // console.log(shortMonth)
-
- 
-  // const publishDate = `${shortMonth(date)} ${date.getDate()} ${date.getFullYear()}`;
   return (
     <Card small className="card-post card-post--1">
       <div className="card-post__image" style={{ backgroundImage: `url(${props.thumbnail})` }}>
