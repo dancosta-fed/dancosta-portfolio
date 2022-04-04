@@ -5,7 +5,7 @@ import{ init } from '@emailjs/browser';
 init("user_YQvXLKM5TcwtDkm2myErF");
 
 const ContactForm = () => {
-  const form = useRef();
+  const form = useRef(null);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -58,7 +58,7 @@ const ContactForm = () => {
                 <textarea placeholder="Let's chat..." name="message" {...register("message", { required: true, minLength: 20 })} />
                 {errors.text?.type === 'required' && "Min of 20 caracters"}
               </div>
-              <div class="btn-area">
+              <div className="btn-area">
                 <input className="sendBtn" type="submit" value="send" />
               </div>
             </div>
