@@ -9,8 +9,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // functional card component to display single item
 export default function MediumCard(props) {
 
-  // I've commented this code out, because it returns the publishing date.
-  // However, that is breaking on safari.
 
   // const shortMonthName = (date) => new Intl.DateTimeFormat('en-US', {
   //   month: 'short'
