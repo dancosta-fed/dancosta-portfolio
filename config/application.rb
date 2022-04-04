@@ -1,6 +1,6 @@
-require_relative "boot"
+require_relative 'boot'
 
-require "rails/all"
+require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
@@ -10,6 +10,15 @@ module DancostaPortfolio
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+
+    config.action_mailer.delivery_method = :smtp
+    congi.action_mailer.smtp_settings = {
+      address: 'smtp.gmail.com',
+      port: 587,
+      email_user_name: ENV['GMAIL_ADDRESS'],
+      password: ENV['GMAIL_APP_PASSWORD'],
+      enable_starttls_auto: true
+    }
 
     # Configuration for the application, engines, and railties goes here.
     #
