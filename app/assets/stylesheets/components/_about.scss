@@ -1,9 +1,5 @@
 @import 'colors';
 
-.background-about{
-  background-color: $grey;
-}
-
 .card-wrapper {
   background-color: white;
   border-radius: 10px;
@@ -75,40 +71,6 @@
   margin-top: 25px;
 }
 
-.about-avatar {
-  margin-right: 35px;
-}
-
-.avatar-chat {
-  align-self: center;
-}
-
-.speech {
-  background: $light-purple;
-  height: 170px;
-  width: 288px;
-  border-radius: 30px;
-  box-shadow: 2px 3px 5px 1px;
-  padding: 17px;
-  color: $yellow;
-}
-
-
-.pointer {
-  height: 15px;
-  width: 15px;
-  background: $light-purple;
-  margin: 0 auto;
-  transform: rotate(45deg);
-  border-radius: 0 0 12px 0;
-  position: relative;
-  left: calc(-3.5vw - 70px);
-  top: -176px;
-}
-
-.message{
-  text-align: justify;
-}
 
 .btn-main a {
   color: $light-purple;
@@ -121,15 +83,6 @@
 
 // == Media Queries == //
 
-@media only screen and (min-width: 426px) {
-
-  .pointer {
-    height: 20px;
-    width: 20px;
-    left: calc(-3.5vw - 112px);
-    top: -113px;
-  }
-}
 
 @media  screen and (min-width: 768px) {
   .languages {
@@ -140,36 +93,11 @@
     width: 25%;
   }
 
-  .avatar-chat {
-    display: flex;
-    align-items: center;
-  }
-
-  .speech {
-    height: 119px;
-    width: 500px;
-  }
-
-  .pointer {
-    left: calc(-3.5vw - 218px);
-    top: -40px;
-  }
 }
 
 @media only screen and (min-width: 1000px) {
   .cv-btn {
     width: 15%;
-  }
-
-  .pointer {
-    height: 20px;
-    width: 20px;
-    left: calc(-3.5vw - 208px );
-    top: -34px;
-  }
-
-  .avatar-chat {
-    align-items: start;
   }
 
   .main-card-info {
@@ -183,11 +111,5 @@
 
   .card-info {
     width: 50%;
-  }
-}
-
-@media only screen and (min-width: 1300px) {
-  .pointer {
-    left: calc(-3.5vw - 195px);
   }
 }

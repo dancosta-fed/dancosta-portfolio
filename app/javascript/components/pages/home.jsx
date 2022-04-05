@@ -10,7 +10,7 @@ class Home extends React.Component {
     return (
       <div>
         <Nav />
-        <Banner />
+        {/* <Banner /> */}
         <About />
         <Footer />
       </div>

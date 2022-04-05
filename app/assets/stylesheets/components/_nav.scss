@@ -3,7 +3,7 @@
 // === MOBILE FIRST APPROACH === //
 
 .nav {
-  background-color: $nav-color;
+  // background-color: $nav-color;
   color: $font-color;
 }
 
@@ -18,10 +18,13 @@
   justify-content: space-between;
 }
 
+.name{
+  margin-left: 20px;
+}
+
 .name,
 .nav-items{
   padding: 5px;
-  // margin: 15px;
 }
 
 .home,

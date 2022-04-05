@@ -13,7 +13,7 @@ class Banner extends React.Component {
 
     function linkedin(e) {
       e.preventDefault();
-      window.open('https://www.linkedin.com/in/daniel-costa-dev/');
+      windowçopen('https://www.linkedin.com/in/daniel-costa-dev/');
     }
 
     function instagram(e) {
@@ -23,14 +23,14 @@ class Banner extends React.Component {
 
     return(
       <div className="banner-bg">
-        <div className="avatar">
+        <div className="avatar avatar-banner">
           <img className="avatar-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648345738/IMG_0591_huppm8.jpg" alt="Dan's profile photo." />
         </div>
 
         <div className="buttons">
           <div className="hire-btn">
             <a className="btn btn-main" href="mailto:dancosta.id@gmail.com">Hire Me</a>
-          </div>
+        </div>
 
           <div className="social-icons">
             <FontAwesomeIcon icon={faGithub} className="fa-icon" onClick={github} />
