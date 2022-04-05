@@ -1,0 +1,59 @@
+@import 'colors';
+
+.about-avatar {
+  margin-right: 35px;
+  margin-left: 26px;
+}
+
+.avatar-chat {
+  align-self: center;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: 23px;
+}
+
+.speech {
+  background: $light-purple;
+  height: 170px;
+  width: 288px;
+  border-radius: 30px;
+  box-shadow: 2px 3px 5px 1px;
+  padding: 17px;
+  color: $yellow;
+  margin-left: 16px;
+}
+
+
+.pointer {
+  height: 15px;
+  width: 15px;
+  background: $light-purple;
+  margin: 0 auto;
+  transform: rotate(45deg);
+  border-radius: 0 0 12px 0;
+  position: relative;
+  left: calc(-3.5vw - 70px);
+  top: -176px;
+}
+
+.message{
+  text-align: justify;
+}
+
+// Media Queries //
+
+@media  screen and (min-width: 768px) {
+  .avatar-chat{
+    justify-content: center;
+  }
+
+  .speech {
+    height: 114px;
+    width: 425px;
+  }
+
+  .pointer {
+    left: calc(-2.3vw - 186px);
+    top: -81px;
+  }
+}
