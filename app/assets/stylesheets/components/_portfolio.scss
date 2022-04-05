@@ -31,11 +31,13 @@
   justify-content: space-between;
 }
 
-.btn:hover{
-  background-color: $grey;
-  color: $light-purple;
-  cursor: pointer;
-  
+.portfolio-btn {
+
+  &:hover{
+    color: $yellow !important;
+    background-color: $light-purple;
+    cursor: pointer;
+  }
 }
 
 // == Media Query == //

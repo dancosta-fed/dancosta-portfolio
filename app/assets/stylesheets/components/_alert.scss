@@ -1,0 +1,12 @@
+@import 'colors';
+// === ALERT === //
+
+.swal-overlay {
+  background-color: $alert-bg;
+  
+}
+
+.swal-modal {
+
+  border-radius: 20px;
+}

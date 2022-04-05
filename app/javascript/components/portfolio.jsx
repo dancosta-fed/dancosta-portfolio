@@ -16,7 +16,7 @@ const Portfolio = () => {
                         This is also a good way to practice more about React js.
                     </p>
                         
-                        <a href ="https://countdown-to-lewagon.herokuapp.com/" className="btn" target="_blank">Check it out</a>
+                        <a href ="https://countdown-to-lewagon.herokuapp.com/" className="btn portfolio-btn" target="_blank">Check it out</a>
                         
                 </div>
           </div>
@@ -35,7 +35,7 @@ const Portfolio = () => {
                         This was a really fun project to create. If you click on the link, you'll see what I could come up with. I would definitely use it on a blog.
                     </p>
                       
-                        <a href ="https://dancosta-fed.github.io/Online-Registration-Form" className="btn" target="_blank">Check it out</a>
+                        <a href ="https://dancosta-fed.github.io/Online-Registration-Form" className="btn portfolio-btn" target="_blank">Check it out</a>
                       
                   </div>
               </div>
@@ -52,7 +52,7 @@ const Portfolio = () => {
                             Here, using only HTML and CSS I was able to create a responsive website for mobiles, desktops, tablets of all sizes.
                         </p>
                             
-                            <a href ="https://dancosta-fed.github.io/Responsive-Layout---Dan-Costa" className="btn" target="_blank">Check it out</a>
+                            <a href ="https://dancosta-fed.github.io/Responsive-Layout---Dan-Costa" className="btn portfolio-btn" target="_blank">Check it out</a>
                             
                     </div>
               </div>
