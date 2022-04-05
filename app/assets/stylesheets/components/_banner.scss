@@ -37,7 +37,6 @@
   box-shadow: 5px 5px 15px 5px $light-purple;
   overflow: hidden;
   object-fit: fill;
-  margin-bottom: 10px;
 }
 
 .avatar img{
@@ -53,9 +52,9 @@
   justify-content: space-between;
 }
 
-.hire-btn {
-  margin-right: 20px;
-}
+// .hire-btn {
+//   margin-right: 20px;
+// }
 
 .social-icons{
   display: flex;
@@ -85,7 +84,4 @@
     height: 358px;
   }
 
-  .avatar{
-    margin-bottom: 83px;
-  }
 }

@@ -13,7 +13,7 @@ class Banner extends React.Component {
 
     function linkedin(e) {
       e.preventDefault();
-      window.open('https://www.linkedin.com/in/daniel-costa-dev/');
+      windowçopen('https://www.linkedin.com/in/daniel-costa-dev/');
     }
 
     function instagram(e) {
@@ -30,7 +30,7 @@ class Banner extends React.Component {
         <div className="buttons">
           <div className="hire-btn">
             <a className="btn btn-main" href="mailto:dancosta.id@gmail.com">Hire Me</a>
-          </div>
+        </div>
 
           <div className="social-icons">
             <FontAwesomeIcon icon={faGithub} className="fa-icon" onClick={github} />

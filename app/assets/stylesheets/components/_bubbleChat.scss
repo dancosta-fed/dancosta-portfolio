@@ -6,10 +6,11 @@
 }
 
 .avatar-chat {
-  align-self: center;
-  margin-top: 35px;
-  margin-left: auto;
-  margin-right: 23px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .speech {
@@ -21,6 +22,7 @@
   padding: 17px;
   color: $yellow;
   margin-left: 16px;
+  margin-top: 25px;
 }
 
 
@@ -32,7 +34,7 @@
   transform: rotate(45deg);
   border-radius: 0 0 12px 0;
   position: relative;
-  left: calc(-3.5vw - 70px);
+  left: calc(-3.5vw - 30px);
   top: -176px;
 }
 
@@ -40,11 +42,19 @@
   text-align: justify;
 }
 
+.contact-bchat{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
 // Media Queries //
 
 @media  screen and (min-width: 768px) {
   .avatar-chat{
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
   }
 
   .speech {
@@ -53,7 +63,24 @@
   }
 
   .pointer {
-    left: calc(-2.3vw - 186px);
+    left: calc(-3.5vw - 177px);
     top: -81px;
+  }
+
+  .contact-bchat {
+    flex-direction: row;
+  }
+}
+
+@media  screen and (min-width: 1000px) {
+  .pointer {
+    left: calc(-3.5vw - 166px);
+    top: -76px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .pointer {
+    left: calc(-3.5vw - 154px);
   }
 }
