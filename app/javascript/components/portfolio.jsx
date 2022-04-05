@@ -16,7 +16,7 @@ const Portfolio = () => {
                         This is also a good way to practice more about React js.
                     </p>
                         
-                        <a href ="https://dancosta-fed.github.io/countdownTimer" className="btn" target="_blank">Check it out</a>
+                        <a href ="https://countdown-to-lewagon.herokuapp.com/" className="btn" target="_blank">Check it out</a>
                         
                 </div>
           </div>

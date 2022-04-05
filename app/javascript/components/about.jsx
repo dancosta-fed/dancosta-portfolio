@@ -6,14 +6,15 @@ import RubyIcon from "./_rubyIcon";
 // import Carousel from "./carousel";
 import Portfolio from "./portfolio";
 
-class About extends React.Component {
+class About extends React.Component {  
   render() {
+
     return(
       <div className="background-about">
         <div className="container mx-auto about">
           <h1 className="aboutme text-center">About Me</h1>
           <div className="about-info">
-            <div className="card">
+            <div className="card-wrapper">
               <div className="main-card-info">
                 <div className="card-description">
                   <p>I'm a self-taught Frontend Developer, who's recently completed a Rails Fullstack Bootcamp at Le wagon Rio. I am looking for an opportunity to prove myself.
@@ -30,7 +31,7 @@ class About extends React.Component {
                     <RubyIcon className="svg-icon languages-icon"/>
                   </div>
 
-                  <div className="learning">
+                  <div className="text-center">
                   # Improving Skills
                   <div className="d-flex justify-content-center">
                     <FontAwesomeIcon icon={faJs} className="learning-icon me-2" />
@@ -40,9 +41,9 @@ class About extends React.Component {
                 </div>
               </div>
               
-              <a className="btn btn-main cv-btn" href="app/assets/images/DanielCosta-CV.png" download="DanielCosta-CV">
+              {/* <a className="btn btn-main cv-btn" href="https://res.cloudinary.com/dognkye6x/image/upload/v1648468128/DanielCosta-CV_jl63qt.png" download="DanielCosta-CV" target="_blank">
                 Download CV
-              </a>
+              </a> */}
             
               </div>
 
