@@ -23,7 +23,7 @@ class Banner extends React.Component {
 
     return(
       <div className="banner-bg">
-        <div className="avatar">
+        <div className="avatar avatar-banner">
           <img className="avatar-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648345738/IMG_0591_huppm8.jpg" alt="Dan's profile photo." />
         </div>
 
