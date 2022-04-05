@@ -2,7 +2,7 @@
 
 // === MOBILE FIRST APPROACH === //
 .banner-bg {
-  background-image: url(https://res.cloudinary.com/dognkye6x/image/upload/v1648344616/banner.bg_mx3m9y.png);
+  background-image: url(https://res.cloudinary.com/dognkye6x/image/upload/v1649156840/newbg_u5kme4.png);
   background-size: cover;
   background-position: center;
   height: 250px;
@@ -16,14 +16,14 @@
 .social-icons {
   cursor: pointer;
   font-size: 30px;
-  color: $yellow;
+  color: $light-purple
 }
 
 .fa-icon {
   margin-left: 25px;
 
   &:hover {
-    color: $light-purple;
+    color: $yellow;
   }
 }
 
@@ -34,7 +34,7 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  box-shadow: 5px 5px 15px 5px $light-yellow;
+  box-shadow: 5px 5px 15px 5px $light-purple;
   overflow: hidden;
   object-fit: fill;
   margin-bottom: 10px;
