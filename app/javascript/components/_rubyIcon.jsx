@@ -4,7 +4,7 @@ class RubyIcon extends React.Component {
   render() {
     return (
       <>
-        <svg className ="svg-icon" width="38px" height="15px" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className ="svg-icon svg-ruby" width="38px" height="15px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M4.29301 4L8.05751 0.235504L9.73062 4H4.29301Z" fill="#6868DD"/>
           <path d="M14.293 0L10.6613 3.63175L9.04716 0H14.293Z" fill="#6868DD"/>
           <path d="M0.235501 8.05751L4.00012 9.73067V4.29289L0.235501 8.05751Z" fill="#6868DD"/>

@@ -94,7 +94,7 @@ const Carousel = () => {
 
                       <div className="card-body">
                         <h4 className="card-title">Travel Tribe</h4>
-                        <p className="card-text"> On the website you will find many features such API connected map, chatrooms, reviews, bookmarks, bookings and an intuitive trip creator. All done with Ruby on Rails.
+                        <p className="card-text"> API to connect a map, chatrooms, reviews, bookmarks, bookings and an intuitive trip creator. All done with Ruby on Rails.
                         </p>
                           
                             <a href ="http://www.trvltribe.com/" className="btn portfolio-btn" target="_blank">Check it out</a>

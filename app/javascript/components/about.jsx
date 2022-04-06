@@ -53,7 +53,7 @@ class About extends React.Component {
               </a> */}
             
               </div>
-              {/* <Portfolio /> */}
+              <h3 className="text-center">Portfolio</h3>
               <Carousel />
             <div className="push"></div>
           </div>
