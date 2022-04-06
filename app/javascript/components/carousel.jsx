@@ -88,30 +88,30 @@ const Carousel = () => {
               {/* First Element */}
               <div className="card card-post-carousel">
                   <Link className="blog carousel-img" to="/blog">
-                    <img className="carousel-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1645840712/freddy_i1qye8.jpg" alt="place holder" />
+                    <img className="carousel-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1649261476/Screen_Shot_2022-04-06_at_13.04.01_mqre8j.png" alt="place holder" />
                   </Link>
 
                 <div className="post-info-carousel">
                   <div className="post-title-carousel">
-                    <h3>Post Title</h3>
+                    <h3>Travel Tribe</h3>
                   </div>
                   <div className="post-description-carousel">
-                    <p>This is a short discription of my post.</p>
+                    <p>On the website you will find many features such API connected map, chatrooms, reviews, bookmarks, bookings and an intuitive trip creator.</p>
                   </div>
                 </div>
               </div>
               {/* Second Element */}
               <div className="card card-post-carousel">
-                  <Link className="blog carousel-img" to="/blog">
-                    <img className="carousel-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1645840712/freddy_i1qye8.jpg" alt="place holder" />
+                  <Link className="blog carousel-img" to="#">
+                    <img className="carousel-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648923834/countdown_vidjov.png" alt="place holder" />
                   </Link>
 
                 <div className="post-info-carousel">
                   <div className="post-title-carousel">
-                    <h3>Post Title 2</h3>
+                    <h3>Countdown App</h3>
                   </div>
                   <div className="post-description-carousel">
-                    <p>This is a short discription of my post. 2</p>
+                    <p>I've done a countdown app to the day the course starts. This is also a good way to practice more about React js</p>
                   </div>
                 </div>
               </div>
