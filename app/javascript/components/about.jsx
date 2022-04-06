@@ -6,13 +6,17 @@ import RubyIcon from "./_rubyIcon";
 // import Carousel from "./carousel";
 import Portfolio from "./portfolio";
 import BubbleChat from "./bubbleChat";
+import IphoneCard from "./iphoneCard";
 
 class About extends React.Component {  
   render() {
 
     return(
       <div className="background-about">
-        <BubbleChat/>
+        <div className="card-bubble">
+          <IphoneCard />
+          <BubbleChat/>
+        </div>
         <div className="container mx-auto about">
           <h1 className="aboutme text-center">About Me</h1>
           <div className="about-info">

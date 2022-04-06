@@ -1,0 +1,51 @@
+@import 'colors';
+
+.notificaiton-block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(218, 214, 214, 0.3);
+  width: 223px !important;
+  height: 240px;
+  border-radius: 10px;
+  margin-top: 25px;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.notification-background {
+  background-image: url('assets/images/IMG_9677.JPG');
+  height: 97px;
+  width: 100%;
+  background-color: aliceblue;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  overflow: hidden
+}
+
+.notification-btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.decline-btn {
+  border-right: 1px solid rgba(218, 214, 214, 0.6);
+  width: 41%;
+  &:hover {
+    color: $red !important;
+  }
+}
+
+.accept-btn {
+  font-weight: 600 !important;
+  &:hover {
+    color: $messages !important;
+  }
+}
+
