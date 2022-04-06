@@ -55,6 +55,15 @@
   }
 }
 
+// New Class //
+
+.hide-notification {
+  transition: ease-out, transform 2s;
+  transition-duration: 3s;
+  transition-delay: 1s;
+  display: none;
+}
+
 // Media Queries //
 
 @media  screen and (min-width: 1000px) {
