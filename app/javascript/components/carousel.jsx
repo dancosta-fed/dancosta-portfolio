@@ -63,74 +63,99 @@ const Carousel = () => {
       }
   }
 
-  // That will make slideshow automated
-  useEffect(() => {
-    slideShowInterval.current = setInterval(() => {
-      next();
-    }, 5000);
+    // That will make slideshow automated
+    // useEffect(() => {
+    //   slideShowInterval.current = setInterval(() => {
+    //     next();
+    //   }, 3000);
 
-    // stop interval
-    slideshow.current.addEventListener('mouseenter', () => {
-      clearInterval(slideShowInterval.current);
-    })
+    //   // stop interval
+    //   slideshow.current.addEventListener('mouseenter', () => {
+    //     clearInterval(slideShowInterval.current);
+    //   })
 
-    // restart interval
-    slideshow.current.addEventListener('mouseleave', () => {
-      slideShowInterval.current = setInterval(() => {
-        next();
-      }, 5000);
-    })
-  }, [])
+    //   // restart interval
+    //   slideshow.current.addEventListener('mouseleave', () => {
+    //     slideShowInterval.current = setInterval(() => {
+    //       next();
+    //     }, 3000);
+    //   })
+    // }, [])
 
     return (
         <div className="carousel container mx-auto">          
             <div className="slideshow-container" ref={slideshow}>
-              {/* First Element */}
-              <div className="card card-post-carousel">
-                  <Link className="blog carousel-img" to="/blog">
-                    <img className="carousel-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1649261476/Screen_Shot_2022-04-06_at_13.04.01_mqre8j.png" alt="place holder" />
-                  </Link>
 
-                <div className="post-info-carousel">
-                  <div className="post-title-carousel">
-                    <h3>Travel Tribe</h3>
+               {/* First Element */}
+               <div className="slide-img mx-auto" >
+
+                  <div className="card card-port">
+                      <img src='https://res.cloudinary.com/dognkye6x/image/upload/v1649261476/Screen_Shot_2022-04-06_at_13.04.01_mqre8j.png' className="carouselImg selected" alt="Registration Form"/>
+
+                      <div className="card-body">
+                        <h4 className="card-title">Travel Tribe</h4>
+                        <p className="card-text"> On the website you will find many features such API connected map, chatrooms, reviews, bookmarks, bookings and an intuitive trip creator. All done with Ruby on Rails.
+                        </p>
+                          
+                            <a href ="http://www.trvltribe.com/" className="btn portfolio-btn" target="_blank">Check it out</a>
+                      </div>
                   </div>
-                  <div className="post-description-carousel">
-                    <p>On the website you will find many features such API connected map, chatrooms, reviews, bookmarks, bookings and an intuitive trip creator.</p>
-                  </div>
-                </div>
               </div>
-              {/* Second Element */}
-              <div className="card card-post-carousel">
-                  <Link className="blog carousel-img" to="#">
-                    <img className="carousel-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648923834/countdown_vidjov.png" alt="place holder" />
-                  </Link>
 
-                <div className="post-info-carousel">
-                  <div className="post-title-carousel">
-                    <h3>Countdown App</h3>
-                  </div>
-                  <div className="post-description-carousel">
-                    <p>I've done a countdown app to the day the course starts. This is also a good way to practice more about React js</p>
-                  </div>
+              {/* Second Element */}
+              <div className="slide-img mx-auto" >
+                <div className="card card-port">
+
+                  <img src='https://res.cloudinary.com/dognkye6x/image/upload/v1649263604/Screen_Shot_2022-04-06_at_13.46.39_tkuzbv.png' className="carouselImg selected" alt="responsive-layout"/>
+                    
+                    <div className="card-body">
+                        <h4 className="card-title">Movie List</h4>
+                        <p className="card-text"> I've used Ruby on Rails, Postgres and API, plus Stymulus, to create this appication. It's a Movie List. 
+                        </p>
+                            
+                            <a href ="https://movies-bookmark-rails.herokuapp.com/" target="_blank">Check it out</a>
+                            
+                    </div>
                 </div>
               </div>
 
               {/* Third Element */}
-              <div className="card card-post-carousel">
-                  <Link className="blog carousel-img" to="/blog">
-                    <img className="carousel-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1645840712/freddy_i1qye8.jpg" alt="place holder" />
-                  </Link>
+              <div className="slide-img mx-auto" >
 
-                <div className="post-info-carousel">
-                  <div className="post-title-carousel">
-                    <h3>Post Title 3</h3>
-                  </div>
-                  <div className="post-description-carousel">
-                    <p>This is a short discription of my post. 3</p>
-                  </div>
+                <div className="card card-port">
+                <img src='https://res.cloudinary.com/dognkye6x/image/upload/v1649263316/Screen_Shot_2022-04-06_at_13.41.46_fupksq.png' className="carouselImg selected" alt="responsive-layout"/>
+                    
+                      <div className="card-body">
+                          <h4 className="card-title">Trippy Boats</h4>
+                          <p className="card-text">Similar to Travel Tribe, Trippy Boats was created at the Le Wagon's Bootcamp. This is a AirBnb clone.
+                          </p>
+                              
+                              <a href ="https://trippy-boats.herokuapp.com/" target="_blank">Check it out</a>
+                              
+                      </div>
                 </div>
+
               </div>
+
+              {/* Fourth Element */}
+
+              <div className="slide-img mx-auto" >
+
+                <div className="card card-port">
+                    <img src='https://res.cloudinary.com/dognkye6x/image/upload/v1648923834/countdown_vidjov.png' className="carouselImg" alt="responsive-layout"/>
+
+                      <div className="card-body">
+                          <h4 className="card-title">Countdown to Le Wagon Bootcamp</h4>
+                          <p className="card-text">I've done a countdown app to the day the course starts. This is also a good way to practice more about React js.
+                          </p>
+                              
+                              <a href ="https://countdown-to-lewagon.herokuapp.com/" className="btn portfolio-btn" target="_blank">Check it out</a>
+                              
+                      </div>
+                </div>
+
+              </div>
+
             </div>
 
             <div className="arrows d-flex justify-content-around">
