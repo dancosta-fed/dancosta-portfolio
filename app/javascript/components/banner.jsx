@@ -29,7 +29,7 @@ class Banner extends React.Component {
 
         <div className="buttons">
           <div className="hire-btn">
-            <a className="btn btn-main" href="mailto:dancosta.id@gmail.com">Hire Me</a>
+            <a className="btn btn-main" href="mailto:dancosta.id@gmail.com">Let's Team Up</a>
         </div>
 
           <div className="social-icons">

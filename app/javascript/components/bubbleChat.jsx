@@ -37,7 +37,7 @@ const BubbleChat = () => {
       <div className="container contact-bchat">
         <div className="buttons">
           <div className="hire-btn">
-            <a className="btn btn-main" href="mailto:dancosta.id@gmail.com">Hire Me</a>
+            <a className="btn btn-main" href="mailto:dancosta.id@gmail.com">Let's Team Up</a>
           </div>
         </div>
         <div className="social-icons bc-icons">
