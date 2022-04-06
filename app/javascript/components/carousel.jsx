@@ -64,23 +64,23 @@ const Carousel = () => {
   }
 
     // That will make slideshow automated
-    // useEffect(() => {
-    //   slideShowInterval.current = setInterval(() => {
-    //     next();
-    //   }, 3000);
+    useEffect(() => {
+      slideShowInterval.current = setInterval(() => {
+        next();
+      }, 3000);
 
-    //   // stop interval
-    //   slideshow.current.addEventListener('mouseenter', () => {
-    //     clearInterval(slideShowInterval.current);
-    //   })
+      // stop interval
+      slideshow.current.addEventListener('mouseenter', () => {
+        clearInterval(slideShowInterval.current);
+      })
 
-    //   // restart interval
-    //   slideshow.current.addEventListener('mouseleave', () => {
-    //     slideShowInterval.current = setInterval(() => {
-    //       next();
-    //     }, 3000);
-    //   })
-    // }, [])
+      // restart interval
+      slideshow.current.addEventListener('mouseleave', () => {
+        slideShowInterval.current = setInterval(() => {
+          next();
+        }, 3000);
+      })
+    }, [])
 
     return (
         <div className="carousel container mx-auto">          
