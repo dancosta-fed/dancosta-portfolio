@@ -16,6 +16,13 @@
 .nav-items {
   display: flex;
   justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.nav-items a {
+  font-size: 20px;
 }
 
 .name{
