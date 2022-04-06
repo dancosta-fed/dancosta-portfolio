@@ -14,8 +14,8 @@ class About extends React.Component {
     return(
       <div className="background-about">
         <div className="card-bubble">
+          <BubbleChat />
           <IphoneCard />
-          <BubbleChat/>
         </div>
         <div className="container mx-auto about">
           <h1 className="aboutme text-center">About Me</h1>

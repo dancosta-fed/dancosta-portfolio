@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+
 }
 
 .speech {
@@ -76,6 +77,10 @@
   .pointer {
     left: calc(-3.5vw - 166px);
     top: -76px;
+  }
+
+  .avatar-chat {
+    justify-content: start;
   }
 }
 

@@ -3,9 +3,9 @@ import React from "react";
 const IphoneCard = () => {
   return(
     <div className="container notificaiton-block">
-      <div className="card-text mb-1">
-        <h6>AirDrop</h6>
-        <p className="text-center mb-0">The user would like to share something with you.</p>
+      <div className="card-text mb-2">
+        <h6 className="mb-0">MessageDrop</h6>
+        <p className="text-center mb-0 notification-description">This user would like to share something with you.</p>
       </div>
 
       <div className="notification-background">
