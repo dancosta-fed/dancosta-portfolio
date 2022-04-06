@@ -7,6 +7,7 @@ import RubyIcon from "./_rubyIcon";
 import Portfolio from "./portfolio";
 import BubbleChat from "./bubbleChat";
 import IphoneCard from "./iphoneCard";
+import Carousel from "./carousel";
 
 class About extends React.Component {  
   render() {
@@ -52,7 +53,8 @@ class About extends React.Component {
               </a> */}
             
               </div>
-            <Portfolio />
+              {/* <Portfolio /> */}
+              <Carousel />
             <div className="push"></div>
           </div>
         </div>
