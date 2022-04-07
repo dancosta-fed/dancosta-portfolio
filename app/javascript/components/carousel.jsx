@@ -113,7 +113,7 @@ const Carousel = () => {
                         <p className="card-text"> I've used Ruby on Rails, Postgres and API, plus Stymulus, to create this appication. It's a Movie List. 
                         </p>
                             
-                            <a href ="https://movies-bookmark-rails.herokuapp.com/" target="_blank">Check it out</a>
+                            <a href ="https://movies-bookmark-rails.herokuapp.com/" className="btn portfolio-btn" target="_blank">Check it out</a>
                             
                     </div>
                 </div>
@@ -130,7 +130,7 @@ const Carousel = () => {
                           <p className="card-text">Similar to Travel Tribe, Trippy Boats was created at the Le Wagon's Bootcamp. This is a AirBnb clone.
                           </p>
                               
-                              <a href ="https://trippy-boats.herokuapp.com/" target="_blank">Check it out</a>
+                              <a href ="https://trippy-boats.herokuapp.com/" className="btn portfolio-btn" target="_blank">Check it out</a>
                               
                       </div>
                 </div>
