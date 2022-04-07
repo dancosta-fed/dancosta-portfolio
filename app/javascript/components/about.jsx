@@ -1,10 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faJs, faHtml5, faCss3, faSass } from "@fortawesome/free-brands-svg-icons";
-import RailsIcon from "./_railsIcon";
-import RubyIcon from "./_rubyIcon";
-// import Carousel from "./carousel";
-import Portfolio from "./portfolio";
+import { DiRuby } from "react-icons/di";
+import { SiRubyonrails } from "react-icons/si";
 import BubbleChat from "./bubbleChat";
 import IphoneCard from "./iphoneCard";
 import Carousel from "./carousel";
@@ -34,8 +32,8 @@ class About extends React.Component {
                     <FontAwesomeIcon icon={faHtml5} className="languages-icon" />
                     <FontAwesomeIcon icon={faCss3} className="languages-icon" />
                     <FontAwesomeIcon icon={faSass} className="languages-icon" />
-                    <RailsIcon className="svg-icon languages-icon"/>
-                    <RubyIcon className="svg-icon languages-icon"/>
+                    <DiRuby className="languages-icon"/>
+                    <SiRubyonrails className="languages-icon"/>
                   </div>
 
                   <div className="text-center">
