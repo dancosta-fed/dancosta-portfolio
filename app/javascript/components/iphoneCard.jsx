@@ -8,7 +8,7 @@ const IphoneCard = () => {
 
   const success = () => {
     TheSwal.fire({
-      title: 'Thanks for the visit!',
+      title: 'Good to see you here!',
       text: 'Hope you enjoy my portfolio! Get in touch!',
       imageUrl: 'https://media.giphy.com/media/xJMM9toDfnehfNxTSG/giphy.gif',
       imageWidth: 400,
