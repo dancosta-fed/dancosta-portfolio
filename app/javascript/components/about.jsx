@@ -53,6 +53,7 @@ class About extends React.Component {
               </div>
               <h3 className="text-center">Portfolio</h3>
               <Carousel />
+              <span className="text-center mt-1">These Portfolios are a showcase of the backend work we've done at the Bootcamp. We worked with Ruby on Rails. I've worked in teams and simulated real world workspaces. We've worked with API's, Schema design, Postgres, Routing, Authentication & Devise and much more.</span>
             <div className="push"></div>
           </div>
         </div>
