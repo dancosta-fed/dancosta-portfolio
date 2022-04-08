@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faReact, faJs, faHtml5, faCss3, faSass } from "@fortawesome/free-brands-svg-icons";
+import { faReact, faJs, faHtml5, faCss3, faSass, faBootstrap } from "@fortawesome/free-brands-svg-icons";
 import { DiRuby } from "react-icons/di";
 import { SiRubyonrails } from "react-icons/si";
 import BubbleChat from "./bubbleChat";
@@ -24,7 +24,8 @@ class About extends React.Component {
                 <div className="card-description">
                   <p>I'm a self-taught Frontend Developer, who's recently completed a Rails Fullstack Bootcamp at Le wagon Rio. I am looking for an opportunity to prove myself.
 
-                  I'm a fast-learner and great team-player. I'm very committed to learning and doing my best.  I can be of a great asset to your team.</p>
+                  I'm a fast-learner and great team-player. I'm very committed to learning and doing my best.  I can be a great asset to your team.</p>
+                  <p>My stack: HTML, CSS/SASS, Boostrap, Ruby, Ruby on Rails, JavaScript and Rect</p>
                 </div>
 
                 <div className="card-info">
@@ -32,6 +33,7 @@ class About extends React.Component {
                     <FontAwesomeIcon icon={faHtml5} className="languages-icon" />
                     <FontAwesomeIcon icon={faCss3} className="languages-icon" />
                     <FontAwesomeIcon icon={faSass} className="languages-icon" />
+                    <FontAwesomeIcon icon={faBootstrap} className="languages-icon" />
                     <DiRuby className="languages-icon"/>
                     <SiRubyonrails className="languages-icon"/>
                   </div>
