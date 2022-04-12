@@ -25,7 +25,7 @@ class About extends React.Component {
                   <p>I'm a self-taught Frontend Developer, who's recently completed a Rails Fullstack Bootcamp at Le wagon Rio. I am looking for an opportunity to prove myself.
 
                   I'm a fast-learner and great team-player. I'm very committed to learning and doing my best.  I can be a great asset to your team.</p>
-                  <p>My stack: HTML, CSS/SASS, Boostrap, Ruby, Ruby on Rails, JavaScript and Rect</p>
+                  <p>My stack: HTML, CSS/SASS, Ruby, Ruby on Rails. I'm improving on JavaScript and React</p>
                 </div>
 
                 <div className="card-info">
@@ -33,7 +33,6 @@ class About extends React.Component {
                     <FontAwesomeIcon icon={faHtml5} className="languages-icon" />
                     <FontAwesomeIcon icon={faCss3} className="languages-icon" />
                     <FontAwesomeIcon icon={faSass} className="languages-icon" />
-                    <FontAwesomeIcon icon={faBootstrap} className="languages-icon" />
                     <DiRuby className="languages-icon"/>
                     <SiRubyonrails className="languages-icon"/>
                   </div>

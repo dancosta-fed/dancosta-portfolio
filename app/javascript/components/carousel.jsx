@@ -86,7 +86,22 @@ const Carousel = () => {
         <div className="carousel container mx-auto">          
             <div className="slideshow-container" ref={slideshow}>
 
-               {/* First Element */}
+            {/* Expense Tracker */}
+            <div className="slide-img mx-auto" >
+              <div className="card card-port">
+                  <img src='https://res.cloudinary.com/dognkye6x/image/upload/v1649788047/expense-tracker_ubrx6r.png' className="carouselImg selected" alt="Registration Form"/>
+
+                  <div className="card-body">
+                    <h4 className="card-title">Expenses Tracker</h4>
+                    <p className="card-text"> This is just a simple expenses tracker I created using React.
+                    </p>
+                      
+                        <a href ="https://addexpenses.herokuapp.com/" className="btn portfolio-btn" target="_blank">Check it out</a>
+                  </div>
+              </div>
+            </div>
+
+               {/* Travel Tribe */}
                <div className="slide-img mx-auto" >
 
                   <div className="card card-port">
@@ -102,7 +117,7 @@ const Carousel = () => {
                   </div>
               </div>
 
-              {/* Second Element */}
+              {/* Movie List */}
               <div className="slide-img mx-auto" >
                 <div className="card card-port">
 
@@ -119,7 +134,7 @@ const Carousel = () => {
                 </div>
               </div>
 
-              {/* Third Element */}
+              {/* Trippy Boats */}
               <div className="slide-img mx-auto" >
 
                 <div className="card card-port">
@@ -137,7 +152,7 @@ const Carousel = () => {
 
               </div>
 
-              {/* Fourth Element */}
+              {/* Countdown */}
 
               <div className="slide-img mx-auto" >
 

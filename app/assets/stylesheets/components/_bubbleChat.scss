@@ -16,11 +16,11 @@
 
 .speech {
   background: $light-purple;
-  height: 145px;
+  height: 150px;
   width: 288px;
   border-radius: 30px;
   box-shadow: 2px 3px 5px 1px;
-  padding: 17px;
+  padding: 30px;
   color: white;
   margin-left: 16px;
   margin-top: 25px;
@@ -28,15 +28,17 @@
 
 
 .pointer {
-  height: 15px;
-  width: 15px;
-  background: $light-purple;
-  margin: 0 auto;
-  transform: rotate(45deg);
-  border-radius: 0 0 12px 0;
-  position: relative;
-  left: calc(-3.5vw - -15px);
-  top: -150px;
+  // height: 15px;
+  // width: 15px;
+  // background: $light-purple;
+  // margin: 0 auto;
+  // transform: rotate(45deg);
+  // border-radius: 0 0 12px 0;
+  // position: relative;
+  // left: calc(-3.5vw - -15px);
+  // top: -150px;
+
+  display: none;
 }
 
 .message{
@@ -59,7 +61,7 @@
   }
 
   .speech {
-    height: 114px;
+    height: 150px;
     width: 425px;
   }
 
