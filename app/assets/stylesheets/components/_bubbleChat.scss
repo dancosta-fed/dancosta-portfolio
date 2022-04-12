@@ -48,13 +48,20 @@
 .contact-bchat{
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.bc-container {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 // Media Queries //
 
 @media  screen and (min-width: 768px) {
+
   .avatar-chat{
     flex-direction: row;
     align-items: center;
@@ -72,6 +79,7 @@
 
   .contact-bchat {
     flex-direction: row;
+    justify-content: center;
   }
 }
 
@@ -83,6 +91,11 @@
 
   .avatar-chat {
     justify-content: start;
+  }
+
+  .contact-bchat {
+    justify-content: start;
+    margin-left: 280px !important;
   }
 }
 

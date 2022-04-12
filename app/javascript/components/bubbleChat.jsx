@@ -19,7 +19,7 @@ const BubbleChat = () => {
   }
 
   return(
-    <div className="container">
+    <div className="container bc-container">
       <div className="avatar-chat">  
         <div className="avatar about-avatar">
           <img className="avatar-img" src="https://res.cloudinary.com/dognkye6x/image/upload/v1648345738/IMG_0591_huppm8.jpg" alt="Dan's profile photo." />
