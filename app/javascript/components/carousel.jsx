@@ -152,19 +152,18 @@ const Carousel = () => {
 
               </div>
 
-              {/* Countdown */}
+              {/* GitHub Repo's Explorer */}
 
               <div className="slide-img mx-auto" >
 
                 <div className="card card-port">
-                    <img src='https://res.cloudinary.com/dognkye6x/image/upload/v1648923834/countdown_vidjov.png' className="carouselImg" alt="responsive-layout"/>
+                    <img src='https://res.cloudinary.com/dognkye6x/image/upload/v1649900559/gh-repo_pdo6cz.png' className="carouselImg" alt="responsive-layout"/>
 
                       <div className="card-body">
-                          <h4 className="card-title">Countdown to Le Wagon Bootcamp</h4>
-                          <p className="card-text">I've done a countdown app to the day the course starts. This is also a good way to practice more about React js.
-                          </p>
-                              
-                              <a href ="https://countdown-to-lewagon.herokuapp.com/" className="btn portfolio-btn" target="_blank">Check it out</a>
+                          <h4 className="card-title">Github Repo's Explorer</h4>
+                          <p className="card-text">An app to find all my Github repos. This was done using React Js.</p>
+
+                              <a href ="https://dancosta-fed.github.io/github-explorer/" className="btn portfolio-btn" target="_blank">Check it out</a>
                               
                       </div>
                 </div>
