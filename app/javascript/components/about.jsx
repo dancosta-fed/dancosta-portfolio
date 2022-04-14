@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact, faJs, faHtml5, faCss3, faSass, faBootstrap } from "@fortawesome/free-brands-svg-icons";
 import { DiRuby } from "react-icons/di";
-import { SiRubyonrails } from "react-icons/si";
+import { SiRubyonrails, SiTypescript, SiReact, SiJavascript } from "react-icons/si";
 import BubbleChat from "./bubbleChat";
 import IphoneCard from "./iphoneCard";
 import Carousel from "./carousel";
@@ -38,10 +38,11 @@ class About extends React.Component {
                   </div>
 
                   <div className="text-center">
-                  # Improving Skills
+                    <h5 className="mb-3"># Improving Skills</h5>
                   <div className="d-flex justify-content-center">
-                    <FontAwesomeIcon icon={faJs} className="learning-icon me-2" />
-                    <FontAwesomeIcon icon={faReact} className="learning-icon" />
+                    <SiJavascript className="languages-icon"/>
+                    <SiTypescript className="languages-icon"/>
+                    <SiReact className="languages-icon"/>
                   </div>
                   </div>
                 </div>

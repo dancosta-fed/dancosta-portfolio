@@ -161,7 +161,7 @@ const Carousel = () => {
 
                       <div className="card-body">
                           <h4 className="card-title">Github Repo's Explorer</h4>
-                          <p className="card-text">An app to find all my Github repos. This was done using React Js.</p>
+                          <p className="card-text">An app to find all my Github repos. This was done using ReactJs and TypeScript.</p>
 
                               <a href ="https://dancosta-fed.github.io/dan-github-explorer/" className="btn portfolio-btn" target="_blank">Check it out</a>
                               
